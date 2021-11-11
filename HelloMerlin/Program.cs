@@ -1,27 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿//Egy új sor kiírása a konzolra
+Console.WriteLine("Hello Merlin!");
 
-namespace MyApp // Note: actual namespace depends on the project name.
-{
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("Hello Merlin!"); 
+//egész szám tÍpusú változó deklarációja (a)
+int a;
+a = 10;
 
-            //egész szám tÍpusú változó deklarációja (a)
-            int a;
-            a = 10;
+//egy második szám deklarációja direkt értékadással (b)
+int b = 7;
 
-            //egy második szám deklarációja direkt értékadással (b)
-            int b = 7;
+//a két szám összegének tárolása egy változóban (sum)
+int sum = a + b;
 
-            //a két szám összegének tárolása egy változóban (sum)
-            int sum = a + b;
+//az összeg kiíratása a konzolra
+Console.WriteLine(sum);
 
-            //az összeg kiíratása a konzolra
-            Console.WriteLine(sum);
-        }
-    }
-}
+//Tetszőleges billenytűre várunk
+Console.ReadKey();
