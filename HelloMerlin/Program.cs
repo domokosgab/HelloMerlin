@@ -16,3 +16,14 @@ Console.WriteLine(sum);
 
 //Tetszőleges billenytűre várunk
 Console.ReadKey();
+
+float f = 0.00001f;
+
+Console.WriteLine(f);
+Console.WriteLine((double)f);
+
+double d = 0.11d;
+
+Console.WriteLine(d);
+
+Console.ReadKey();
